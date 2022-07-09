@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    color: cornflowerblue;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 30rem;
+    height: 25rem;
+    margin-top: 12rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: cornsilk;
+    border-radius: 10px;
+    -webkit-box-shadow: 8px 8px 0px -1px cornflowerblue; 
+    box-shadow: 8px 8px 0px -1px cornflowerblue;
+}
+
+.box ul{
+    list-style: none;
+}
+
+ul li:hover{
+    cursor: pointer;
+    color: rgb(81, 134, 233);
+    font-weight: 500;
+}
