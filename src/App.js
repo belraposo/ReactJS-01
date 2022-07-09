@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
+import StarFruit from './img/star-fruit.png';
 
 class Infos extends Component{
   state = {
@@ -22,6 +23,10 @@ class Infos extends Component{
             <li onClick={() => window.open(['https://www.youtube.com/watch?v=Cl5Vkd4N03Q'], '_blank')}>{this.state.musica[1]}</li>
             <li onClick={() => window.open(['https://www.youtube.com/watch?v=VEe_yIbW64w'], '_blank')}>{this.state.musica[2]}</li>
           </ul>
+          <div className='img-box'>
+            <h4>Fruta Favorita:</h4>
+            <img src={StarFruit} alt='Star-Fruit'/>
+          </div>
         </div>
       </main>
     )
